@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="action_options">
+        <item>@string/action_none</item>
+        <item>@string/action_toggle_light</item>
+        <item>@string/action_adjust_volume</item>
+        <item>@string/action_change_track</item>
+        <item>@string/action_toggle_speaker</item>
+        <item>@string/action_toggle_fan</item>
+        <item>@string/action_toggle_tv</item>
+    </string-array>
+</resources>

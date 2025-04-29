@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Smart Gesture Control</string>
+
+    <!-- Main Activity -->
+    <string name="title_gesture_control">Gesture Control</string>
+    <string name="title_device_status">Device Status</string>
+    <string name="title_sensor_data">Sensor Data</string>
+
+    <!-- Device Types -->
+    <string name="device_light">Smart Light</string>
+    <string name="device_speaker">Smart Speaker</string>
+    <string name="device_tv">Smart TV</string>
+    <string name="device_fan">Smart Fan</string>
+
+    <!-- Device Controls -->
+    <string name="control_on">ON</string>
+    <string name="control_off">OFF</string>
+    <string name="control_volume">Volume</string>
+    <string name="control_brightness">Brightness</string>
+    <string name="control_speed">Speed</string>
+    <string name="control_next">Next</string>
+    <string name="control_previous">Previous</string>
+
+    <!-- Gestures -->
+    <string name="gesture_wave">Wave to toggle lights</string>
+    <string name="gesture_tilt">Tilt to adjust volume</string>
+    <string name="gesture_rotate">Rotate to change track</string>
+    <string name="gesture_shake">Shake to toggle device</string>
+    <string name="gesture_double_tap">Double tap to pause/play</string>
+    <string name="gesture_instructions">Wave to toggle lights\nTilt to adjust volume\nRotate to change track</string>
+
+    <!-- Connection -->
+    <string name="connection_bluetooth">Bluetooth</string>
+    <string name="connection_wifi">WiFi</string>
+    <string name="connection_status_connected">Connected</string>
+    <string name="connection_status_disconnected">Disconnected</string>
+    <string name="connection_scan">Scan for Devices</string>
+    <string name="connection_connect">Connect</string>
+    <string name="connection_disconnect">Disconnect</string>
+
+    <!-- Device Scan -->
+    <string name="scan_title">Available Devices</string>
+    <string name="scan_paired_devices">Paired Devices</string>
+    <string name="scan_available_devices">Available Devices</string>
+    <string name="scan_start">Start Scan</string>
+    <string name="scan_stop">Stop Scan</string>
+    <string name="scan_no_devices">No devices found</string>
+    <string name="scan_scanning">Scanning...</string>
+    <string name="scan_failed">Scan failed</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_sensitivity">Gesture Sensitivity</string>
+    <string name="settings_threshold">Detection Threshold</string>
+    <string name="settings_gesture_assignment">Gesture Assignment</string>
+    <string name="settings_save">Save Settings</string>
+    <string name="settings_reset">Reset to Default</string>
+    <string name="settings_saved">Settings saved successfully</string>
+
+    <!-- Actions -->
+    <string name="action_toggle_light">Toggle Light</string>
+    <string name="action_adjust_volume">Adjust Volume</string>
+    <string name="action_change_track">Change Track</string>
+    <string name="action_toggle_speaker">Toggle Speaker</string>
+    <string name="action_toggle_fan">Toggle Fan</string>
+    <string name="action_toggle_tv">Toggle TV</string>
+    <string name="action_none">No Action</string>
+
+    <!-- Messages -->
+    <string name="msg_gesture_detected">Gesture detected: %1$s</string>
+    <string name="msg_device_connected">Connected to %1$s</string>
+    <string name="msg_device_disconnected">Disconnected from %1$s</string>
+    <string name="msg_command_sent">Command sent: %1$s</string>
+    <string name="msg_no_device">No device connected</string>
+    <string name="msg_bluetooth_not_supported">Bluetooth is not supported on this device</string>
+    <string name="msg_bluetooth_not_enabled">Please enable Bluetooth</string>
+    <string name="msg_wifi_not_enabled">Please enable WiFi</string>
+    <string name="msg_wifi_not_connected">Please connect to a WiFi network</string>
+</resources>
